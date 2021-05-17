@@ -10,6 +10,7 @@ import Menu from "./components/Menu";
 import Button from "./components/Button";
 import { openMenu } from "./redux/reducers/gameReducer";
 import Audios from "./components/Audios";
+import mainBg from "./images/main-bg.webp";
 
 function App() {
   const gameState = useSelector((state: RootState) => state.game);
@@ -42,7 +43,7 @@ function App() {
 export default App;
 
 const StyledApp = styled.div`
-  background: url("/images/main-bg.webp") center/ cover no-repeat;
+  background: url(${mainBg}) center/ cover no-repeat;
   width: 100%;
   height: 100%;
   display: flex;

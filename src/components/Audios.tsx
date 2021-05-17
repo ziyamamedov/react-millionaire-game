@@ -1,4 +1,9 @@
 import { useEffect, useRef } from "react";
+import gameStarted from "../sounds/gameStarted.mp3";
+import correct from "../sounds/correct.mp3";
+import suspend from "../sounds/suspend.mp3";
+import victory from "../sounds/victory.mp3";
+import wrong from "../sounds/wrong.mp3";
 
 export interface AudiosProps {
   audioName: string;
@@ -36,19 +41,19 @@ const Audios: React.FC<AudiosProps> = ({ audioName }) => {
   return (
     <>
       <audio ref={sounds.gameStarted} preload="auto">
-        <source src="/sounds/gameStarted.mp3" type="audio/mpeg" />
+        <source src={gameStarted} type="audio/mpeg" />
       </audio>
       <audio ref={sounds.correct} preload="auto">
-        <source src="/sounds/correct.mp3" type="audio/mpeg" />
+        <source src={correct} type="audio/mpeg" />
       </audio>
       <audio ref={sounds.suspend} preload="auto">
-        <source src="/sounds/suspend.mp3" type="audio/mpeg" />
+        <source src={suspend} type="audio/mpeg" />
       </audio>
       <audio ref={sounds.victory} preload="auto">
-        <source src="/sounds/victory.mp3" type="audio/mpeg" />
+        <source src={victory} type="audio/mpeg" />
       </audio>
       <audio ref={sounds.wrong} preload="auto">
-        <source src="/sounds/wrong.mp3" type="audio/mpeg" />
+        <source src={wrong} type="audio/mpeg" />
       </audio>
     </>
   );

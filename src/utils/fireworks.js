@@ -1,4 +1,7 @@
 import { Fireworks } from "fireworks-js";
+import explosion0 from "../sounds/test_explosion0.mp3";
+import explosion1 from "../sounds/test_explosion1.mp3";
+import explosion2 from "../sounds/test_explosion2.mp3";
 
 export const createFireworks = (element) => {
   const container = element.current;
@@ -23,11 +26,7 @@ export const createFireworks = (element) => {
     },
     sound: {
       enable: true,
-      list: [
-        "./sounds/test_explosion0.mp3",
-        "./sounds/test_explosion1.mp3",
-        "./sounds/test_explosion2.mp3",
-      ],
+      list: [explosion0, explosion1, explosion2],
       min: 4,
       max: 8,
     },
