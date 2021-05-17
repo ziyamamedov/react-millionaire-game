@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-millionaire-game/static/css/main.ac85ba24.chunk.css",
+    "main.js": "/react-millionaire-game/static/js/main.4b978a0f.chunk.js",
+    "main.js.map": "/react-millionaire-game/static/js/main.4b978a0f.chunk.js.map",
+    "runtime-main.js": "/react-millionaire-game/static/js/runtime-main.73981d2d.js",
+    "runtime-main.js.map": "/react-millionaire-game/static/js/runtime-main.73981d2d.js.map",
+    "static/js/2.3668bd6c.chunk.js": "/react-millionaire-game/static/js/2.3668bd6c.chunk.js",
+    "static/js/2.3668bd6c.chunk.js.map": "/react-millionaire-game/static/js/2.3668bd6c.chunk.js.map",
+    "index.html": "/react-millionaire-game/index.html",
+    "static/css/main.ac85ba24.chunk.css.map": "/react-millionaire-game/static/css/main.ac85ba24.chunk.css.map",
+    "static/js/2.3668bd6c.chunk.js.LICENSE.txt": "/react-millionaire-game/static/js/2.3668bd6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73981d2d.js",
+    "static/js/2.3668bd6c.chunk.js",
+    "static/css/main.ac85ba24.chunk.css",
+    "static/js/main.4b978a0f.chunk.js"
+  ]
+}
